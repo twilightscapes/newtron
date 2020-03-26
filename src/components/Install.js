@@ -2,7 +2,7 @@ import React from 'react'
 // import { navigate } from 'gatsby-link'
 import { FiShare } from 'react-icons/fi';
 import { FaRegPlusSquare } from 'react-icons/fa';
-import ScrollAnimation from 'react-animate-on-scroll'
+// import ScrollAnimation from 'react-animate-on-scroll'
 import CookieConsent from "react-cookie-consent"
 import styled from "styled-components";
 
@@ -46,8 +46,8 @@ const Install = () => (
     className=""
     buttonText="Cancel"
 	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', right:'30%', left:'30%', color:'inherit', }}
-    expires={10}
-    cookieName="Pick6Golf.com-install-cookie"
+    expires={1}
+    cookieName="Hytron.com-install-cookie"
 >
 
 
@@ -57,9 +57,8 @@ const Install = () => (
 	
 	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install App</h4>
 	<br />
-
-  <div style={{fontSize:'100%', textAlign:'center',}}>This website has app functionality, just add it to your home screen to install it.<br /><br /> You never have to go to the website again!</div>
-  <br />
+	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability.</span>
+	<br /><br />
 	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
 	<br />
 	

@@ -33,60 +33,42 @@ const Intro2 = () => (
 
    
 
-  
+  <ScrollAnimation animateIn="fadeIn" delay={1600} style={{position:'relative', top:'0', right:'0',}}>
+  <h1
+    className="boom1 narrow txtshadow-header mobile-txt"
+    style={{
+     color: 'white',
+      textAlign: 'center', 
+      letterSpacing: '.0rem',
+    }}
+  >
+    Quality Manufacturing
+  </h1>
+  </ScrollAnimation>
   
   
   <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', top:'0', left:'0', paddingTop:'0', overflow:'hidden', width:'100%',}}>
-        <div className="typewriter"><h1
-          className="boom1 normal txtshadow-header"
+        <div className=""><h2
+          className="boom3 normal txtshadow-header"
           style={{
             color: '#fff',
             textAlign: 'center', 
           }}
         >
-         Code Monkey
-        </h1></div>
+         Precision Parts
+        </h2></div>
         </ScrollAnimation>
         
         
         
         
         
-  <ScrollAnimation animateIn="bounceInRight" delay={1550} style={{position:'relative', top:'0', right:'0', display:'flex', justifyContent:'center', alignContent:'center',}}>
-        <h2
-          className="boom2 narrow txtshadow-header mobile-txt"
-          style={{
-           color: 'white',
-           fontStyle:'normal',
-            textAlign: 'center', 
-            transform: 'rotate(-7deg)',
-            transformOrigin: 'center',
-            background:'#666',
-            borderRadius:'12px',
-            padding:'3px 10px',
-            margin:'0 auto',
-            display:'inline-block',
-          }}
-        >
-          by Day
-        </h2>
-        </ScrollAnimation>
+
         
-          <ScrollAnimation animateIn="bounceInRight" delay={4600} style={{position:'relative', top:'0', right:'0',}}>
-        <h2
-          className="boom3 narrow txtshadow-header mobile-txt"
-          style={{
-           color: 'white',
-            textAlign: 'center', 
-            letterSpacing: '.0rem',
-          }}
-        >
-          Photographer
-        </h2>
-        </ScrollAnimation>
+    
         
         
-  <ScrollAnimation animateIn="bounceInUp" delay={4650} style={{position:'', top:'0', right:'0',}}>
+  <ScrollAnimation animateIn="fadeIn" delay={1700} style={{position:'', top:'0', right:'0',}}>
         <h3
           className="boom4 txtshadow-header mobile-txt"
           style={{
@@ -95,7 +77,7 @@ const Intro2 = () => (
             textTransform: 'normal', 
           }}
         >
-         by Night
+         Done right AND on time
         </h3>
         </ScrollAnimation>
 
@@ -111,18 +93,21 @@ const Intro2 = () => (
         
         
 
-<div className="" style={{position:'absolute', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'-1',}}>
+<div className="" style={{position:'absolute', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'0',}}>
+
+
+
+
 <ScrollAnimation animateIn="fadeIn">
 <div id="slideshow">
   <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
   
    
-   
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="todd-in-action2.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="slider1.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+      
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="img_2487.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="todd-in-action4.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
-    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="todd-in-action7.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="shutterstock_2208127601.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     

@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://pick6golf.netlify.com',
+  URL: NETLIFY_SITE_URL = 'https://hytron.netlify.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -55,7 +55,7 @@ module.exports = {
 { 
       resolve: `gatsby-plugin-purgecss`,
       options: {
-        printRejected: true, // Print removed selectors and processed file names
+        printRejected: false, // Print removed selectors and processed file names
         develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['headroom', 'headroom--unfixed'], // Don't remove this selector

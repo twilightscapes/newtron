@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 // import Gallery1 from '../components/Gallery1'
@@ -6,8 +6,8 @@ import Navbar from '../components/Navbar'
 import config from '../../config'
 // import Install from '../components/Install'
 import PopContact from '../components/PopContact'
-import 'typeface-lobster-two'
-import 'typeface-hammersmith-one'
+// import 'typeface-lobster-two'
+import 'typeface-francois-one'
 
 import "../css/index.scss"
 import Consent from '../components/Consent'
@@ -52,10 +52,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.jpg`} />
         
         
-        <link rel="apple-touch-icon" sizes="180x180" href="/siteimages/apple-icon-180.png" />
-<link rel="apple-touch-icon" sizes="167x167" href="/siteimages/apple-icon-167.png" />
-<link rel="apple-touch-icon" sizes="152x152" href="/siteimages/apple-icon-152.png" />
-<link rel="apple-touch-icon" sizes="120x120" href="/siteimages/apple-icon-120.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/siteimages/apple-splashapple-icon-180.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="/siteimages/apple-splashapple-icon-167.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/siteimages/apple-splashapple-icon-152.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/siteimages/apple-splashapple-icon-120.png" />
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 

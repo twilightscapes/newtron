@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
-import logo from '../../img/pick6golf-final.svg'
-// import Install from '../Install'
+import React from 'react'
+// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
-import Offerings from '../Offerings'
-import Testimonials from '../Testimonials'
+// import Offerings from '../Offerings'
+// import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
 import Image from '../Image'
-import { graphql } from 'gatsby'
-import { HTMLContent } from '../Content'
+// import { graphql } from 'gatsby'
+// import { HTMLContent } from '../Content'
 import Contact from '../Contact-inc'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import PopNewsletter from '../PopNewsletter'
@@ -16,7 +14,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 // import { Link } from 'gatsby'
 import styled from 'styled-components'
 // import Intro1 from '../Intro1'
-// import Intro2 from '../Intro2'
+import Intro2 from '../Intro2'
 // import Intro3 from '../Intro3'
 
 const CustomBox = styled.div`
@@ -47,9 +45,6 @@ const CustomBox = styled.div`
   z-index:0;
 }
 
-hr{ 
-  border:1px dotted #999;
-}
 
 
 
@@ -74,8 +69,7 @@ hr{
   .split div{max-width:100% !important; background:tranparent !important;}
   .sidebar{margin:2rem 0;}
   .sidebar .logolink{text-align:center !important;}
-  
-  
+  .textcontent{margin: 0 !important;}
 }
 
 
@@ -95,13 +89,13 @@ const HomePageTemplate = ({
 
 }) => (
 <>
-  <Helmet>
-    <title>{meta_title}</title>
-    <meta name='description' content={meta_description} />
-    <html className="fullhead" />
-  </Helmet>
-  
-  
+    <Helmet>
+      <title>{meta_title}</title>
+      <meta name='description' content={meta_description} />
+      <html lang="en" className="fullhead" />
+    </Helmet>
+    
+    
 
 
 
@@ -112,467 +106,72 @@ const HomePageTemplate = ({
 {/* <Intro1 /> */}
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
+<Intro2 />
+
+<div className="container textcontent" style={{margin:'3% 12%', padding:'1.5rem'}}>
+
+<div className="container">
+<div className="content" style={{padding:'1rem 1rem',}}>
+{/*  <Image alt="Hytron Manufacturing Precision Parts and Machining" filename="IMG_2506.jpg"  width="220" height="220" style={{float: 'right', margin:'0 0 1rem 1rem',}} /> */}
+
+
+<h2>Contract Manufacturing</h2>
+<p>Hytron is a contract manufacturing service provider.</p>
+
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_226894963.jpg"  width="220" height="220" /></div>
+
+<p>Through our outsourcing services, we have partnered with Fortune 500 companies for their component part manufacturing. This has resulted in a reduced time-to-market and cost savings for our Customers.</p>
+
+<p>Our manufacturing capabilities range from prototype fabrication to close tolerance machining in production volumes to support your requirements.</p>
+</div>
+</div>
 
 
 
 
+<div className="container">
+<div className="content" style={{padding:'1rem 1rem',}}>
+{/* <img src="" alt="Placeholder" width="220" height="220" style={{float: '', margin:'0 1rem 1rem 0',}} /> */}
+
+<h2>Lean Manufacturing</h2>
+
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="slider2.jpg"  width="220" height="220" /></div>
+
+
+<p>Products you need –  at the desired volume – when you want them.</p>
+
+<p>Our supply chain expertise in Build-to-Order  product assembly and our proprietary quoting, planning, quality inspection and supply chain management capability create cost effective fulfillment solutions. Let us show you how we can tailor a “Kanban” replenishment program to meet your needs and avoid supply chain disruptions</p>
+</div>
+</div>
+
+
+
+<div className="container">
+<div className="content" style={{padding:'1rem 1rem',}}>
+{/* <img src="" alt="Placeholder" width="220" height="220" style={{float: 'right', margin:'0 0 1rem 1rem',}} /> */}
+<h2>The Hytron Difference</h2>
+
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_977142891.jpg"  width="220" height="220" /></div>
+
+
+<p>With our best-in-class capabilities, high quality standards and supply chain tracking system we can deliver your products in the most cost effective way.</p>
+<p>Let Hytron assist you with bringing your product to market.</p>
+<br />
+<br />
+</div>
+</div>
+
+</div>
+
+<ScrollAnimation animateIn="bounceInUp" delay={0}>
 <div className="outer">
-  
-<div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'0', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
-  
-
- <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
-  
-  
-
-   
-
-  
-  
-  
-  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'5%', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
-  
-  <div className="container innerpanel" style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
-     <img className="logo" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
-     </div>
-    </ScrollAnimation>
-        
-        
-  <ScrollAnimation animateIn="bounceInUp" delay={2050} style={{position:'', top:'0', right:'0',}}>
-        <h3
-          className="boom4 txtshadow-header mobile-txt"
-          style={{
-           color: 'white',
-            textAlign: 'center',
-            textTransform: 'normal', 
-          }}
-        >
-        a charity tournament
-        </h3>
-        </ScrollAnimation>
-
-
-        
-
-
-
-
-        
-        </div>
-        
-        
-        
-
-<div className="" style={{position:'fixed', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'-1',}}>
-<ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" animateOnce={false} delay={100}>
-<div id="slideshow">
-  <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
-  
-   
-   
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="masters.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
-    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="andrews.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
-    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="pebble.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
-    
-
-    
-
-   
-  </div>
+    <Contact className="container contactform" />
 </div>
 </ScrollAnimation>
-        </div>
-        
-        
-        
-    
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
-
-
-
-
-<div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
-
-<h1 className='title' style={{textAlign:'',}}>{title}</h1>
-        
-<div className="content" style={{margin:'2% 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
-
-<h3 className="" style={{textAlign:'',}}>
-{heading}
-</h3>
-
-</div>
 <br />
-{description}
- 
-
-
-
-</div>
-
-
-<div className="sidebar split" style={{padding:'1%', width:'40%', marginLeft:'2%',}}>
-  
-  <div style={{position:'sticky', top:'30px', }}>
-
-
-
-
-
-
-
-
-
-
-<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
- 
-<h4>The Field: (a-z)</h4>
-<div style={{width:'auto', padding:'10px 20%', height:'350px', overflow:'scroll', color:'#111',}}>
-
-An, Byeong Hun
-<br /><hr /><br/>
-Ancer, Abraham
-<br /><hr /><br/>
-Aphibarnrat, Kiradech
-<br /><hr /><br/>
-Armour, Ryan
-<br /><hr /><br/>
-Baddeley, Aaron
-<br /><hr /><br/>
-Berger, Daniel
-<br /><hr /><br/>
-Bezuidenhout, Christiaan
-<br /><hr /><br/>
-Bradley, Keegan
-<br /><hr /><br/>
-Brown, Scott
-<br /><hr /><br/>
-Burgoon, Bronson
-<br /><hr /><br/>
-Burns, Sam
-<br /><hr /><br/>
-Cabrera Bello, Rafa
-<br /><hr /><br/>
-Cantlay, Patrick
-<br /><hr /><br/>
-Casey, Paul
-<br /><hr /><br/>
-Cauley, Bud
-<br /><hr /><br/>
-Champ, Cameron
-<br /><hr /><br/>
-Clark, Wyndham
-<br /><hr /><br/>
-Conners, Corey
-<br /><hr /><br/>
-Dahmen, Joel
-<br /><hr /><br/>
-Day, Jason
-<br /><hr /><br/>
-DeChambeau, Bryson
-<br /><hr /><br/>
-Dufner, Jason
-<br /><hr /><br/>
-Duncan, Tyler
-<br /><hr /><br/>
-English, Harris
-<br /><hr /><br/>
-Every, Matt
-<br /><hr /><br/>
-Finau, Tony
-<br /><hr /><br/>
-Fitzpatrick, Matthew
-<br /><hr /><br/>
-Fleetwood, Tommy
-<br /><hr /><br/>
-Fowler, Rickie
-<br /><hr /><br/>
-Frittelli, Dylan
-<br /><hr /><br/>
-Furyk, Jim
-<br /><hr /><br/>
-Garcia, Sergio
-<br /><hr /><br/>
-Garnett, Brice
-<br /><hr /><br/>
-Gay, Brian
-<br /><hr /><br/>
-Glover, Lucas
-<br /><hr /><br/>
-Gooch, Talor
-<br /><hr /><br/>
-Goosen, Retief
-<br /><hr /><br/>
-Grace, Branden
-<br /><hr /><br/>
-Griffin, Lanto
-<br /><hr /><br/>
-Grillo, Emiliano
-<br /><hr /><br/>
-Hadley, Chesson
-<br /><hr /><br/>
-Hadwin, Adam
-<br /><hr /><br/>
-Harman, Brian
-<br /><hr /><br/>
-Hatton, Tyrrell
-<br /><hr /><br/>
-Henley, Russell
-<br /><hr /><br/>
-Herman, Jim
-<br /><hr /><br/>
-Hoffman, Charley
-<br /><hr /><br/>
-Hoge, Tom
-<br /><hr /><br/>
-Holmes, J.B.
-<br /><hr /><br/>
-Homa, Max
-<br /><hr /><br/>
-Horschel, Billy
-<br /><hr /><br/>
-Hovland, Viktor
-<br /><hr /><br/>
-Howell III, Charles
-<br /><hr /><br/>
-Hubbard, Mark
-<br /><hr /><br/>
-Hughes, Mackenzie
-<br /><hr /><br/>
-Im, Sungjae
-<br /><hr /><br/>
-Janewattananond, Jazz
-<br /><hr /><br/>
-Johnson, Dustin
-<br /><hr /><br/>
-Johnson, Zach
-<br /><hr /><br/>
-Jones, Matt
-<br /><hr /><br/>
-Kang, Sung
-<br /><hr /><br/>
-Kim, Si Woo
-<br /><hr /><br/>
-Kisner, Kevin
-<br /><hr /><br/>
-Kizzire, Patton
-<br /><hr /><br/>
-Knox, Russell
-<br /><hr /><br/>
-Koepka, Brooks
-<br /><hr /><br/>
-Kokrak, Jason
-<br /><hr /><br/>
-Kuchar, Matt
-<br /><hr /><br/>
-Laird, Martin
-<br /><hr /><br/>
-Landry, Andrew
-<br /><hr /><br/>
-Lashley, Nate
-<br /><hr /><br/>
-Lee, Danny
-<br /><hr /><br/>
-Lee, Kyoung-Hoon
-<br /><hr /><br/>
-Leishman, Marc
-<br /><hr /><br/>
-List, Luke
-<br /><hr /><br/>
-Long, Adam
-<br /><hr /><br/>
-Lowry, Shane
-<br /><hr /><br/>
-Malnati, Peter
-<br /><hr /><br/>
-Matsuyama, Hideki
-<br /><hr /><br/>
-McCarthy, Denny
-<br /><hr /><br/>
-McDowell, Graeme
-<br /><hr /><br/>
-McIlroy, Rory
-<br /><hr /><br/>
-Merritt, Troy
-<br /><hr /><br/>
-Mickelson, Phil
-<br /><hr /><br/>
-Mitchell, Keith
-<br /><hr /><br/>
-Molinari, Francesco
-<br /><hr /><br/>
-Moore, Ryan
-<br /><hr /><br/>
-Morikawa, Collin
-<br /><hr /><br/>
-Muñoz, Sebastián
-<br /><hr /><br/>
-Na, Kevin
-<br /><hr /><br/>
-Niemann, Joaquin
-<br /><hr /><br/>
-Oosthuizen, Louis
-<br /><hr /><br/>
-Ortiz, Carlos
-<br /><hr /><br/>
-Palmer, Ryan
-<br /><hr /><br/>
-Pan, C.T.
-<br /><hr /><br/>
-Perez, Pat
-<br /><hr /><br/>
-Perez, Victor
-<br /><hr /><br/>
-Piercy, Scott
-<br /><hr /><br/>
-Poston, J.T.
-<br /><hr /><br/>
-Poulter, Ian
-<br /><hr /><br/>
-Putnam, Andrew
-<br /><hr /><br/>
-Rahm, Jon
-<br /><hr /><br/>
-Reavie, Chez
-<br /><hr /><br/>
-Reed, Patrick
-<br /><hr /><br/>
-Rodgers, Patrick
-<br /><hr /><br/>
-Rose, Justin
-<br /><hr /><br/>
-Ryder, Sam
-<br /><hr /><br/>
-Sabbatini, Rory
-<br /><hr /><br/>
-Schauffele, Xander
-<br /><hr /><br/>
-Scheffler, Scottie
-<br /><hr /><br/>
-Schenk, Adam
-<br /><hr /><br/>
-Scott, Adam
-<br /><hr /><br/>
-Simpson, Webb
-<br /><hr /><br/>
-Sloan, Roger
-<br /><hr /><br/>
-Smith, Cameron
-<br /><hr /><br/>
-Snedeker, Brandt
-<br /><hr /><br/>
-Spaun, J.J.
-<br /><hr /><br/>
-Spieth, Jordan
-<br /><hr /><br/>
-Stallings, Scott
-<br /><hr /><br/>
-Stanley, Kyle
-<br /><hr /><br/>
-Stenson, Henrik
-<br /><hr /><br/>
-Straka, Sepp
-<br /><hr /><br/>
-Streelman, Kevin
-<br /><hr /><br/>
-Stroud, Chris
-<br /><hr /><br/>
-Stuard, Brian
-<br /><hr /><br/>
-Taylor, Nick
-<br /><hr /><br/>
-Taylor, Vaughn
-<br /><hr /><br/>
-Thomas, Justin
-<br /><hr /><br/>
-Thompson, Michael
-<br /><hr /><br/>
-Todd, Brendon
-<br /><hr /><br/>
-Tringale, Cameron
-<br /><hr /><br/>
-Tway, Kevin
-<br /><hr /><br/>
-van Rooyen, Erik
-<br /><hr /><br/>
-Varner III, Harold
-<br /><hr /><br/>
-Vegas, Jhonattan
-<br /><hr /><br/>
-Walker, Jimmy
-<br /><hr /><br/>
-Wallace, Matt
-<br /><hr /><br/>
-Watney, Nick
-<br /><hr /><br/>
-Watson, Bubba
-<br /><hr /><br/>
-Wiesberger, Bernd
-<br /><hr /><br/>
-Willett, Danny
-<br /><hr /><br/>
-Wise, Aaron
-<br /><hr /><br/>
-Wolff, Matthew
-<br /><hr /><br/>
-Woodland, Gary
-
-</div>
-
-
-
-</div> 
-
-
-
-
-  
-  
-
-  </div>
-  </div>
-
-
-
-
-</section>
-
-
-  
-  </div>
-  
-  <div className="outer" style={{position:'relative', zIndex:'1'}}>
-    <Contact className="container contactform" />
-  </div>
-  
-  <br />
-  
-  
-  </CustomBox>
-  
-
-  
+    
+    </div>
+    </CustomBox>
   </>
 )
 
@@ -583,7 +182,7 @@ HomePageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   offerings: PropTypes.shape({
-  blurbs: PropTypes.array,
+    blurbs: PropTypes.array,
   }),
   testimonials: PropTypes.array,
 
