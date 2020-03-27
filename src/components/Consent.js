@@ -9,7 +9,7 @@ const Consent = () => (
 
 
 <CookieConsent
-	debug={true}
+	debug={false}
 	location="bottom"
 	style={{ background: "#222", zIndex:'1', padding:'10px 3% 0% 3%', opacity:'.8', }}
 	enableDeclineButton={false}
@@ -20,7 +20,7 @@ const Consent = () => (
 	buttonStyle={{ color: "#333", justifyContent:'center', textAlign:'center', background: "#eee", fontSize: "13px", fontWeight:'bold', borderRadius:'5px', padding:'.5rem 1rem', margin:'10px auto 30px auto', top:'10px',  position:'relative', }}
 
     expires={30}
-    cookieName="Twilightscapes.com-site-pref-cookie"
+    cookieName="hytronmaunfacturing.com-site-pref-cookie"
 >
 
     <div style={{ padding:'0 0 0 0', fontSize:'90%', textAlign:'center',}}> We use cookies to optimize our website.{" "}<br />
