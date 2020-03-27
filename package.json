@@ -51,8 +51,7 @@
     "react-share": "^3.0.1",
     "smooth-scroll": "^16.1.0",
     "styled-components": "^4.4.1",
-    "typeface-hammersmith-one": "0.0.72",
-    "typeface-lobster-two": "0.0.72",
+    "typeface-francois-one": "0.0.71",
     "uuid": "^3.2.1"
   },
   "keywords": [

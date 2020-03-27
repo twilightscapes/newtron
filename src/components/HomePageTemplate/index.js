@@ -118,7 +118,7 @@ const HomePageTemplate = ({
 <h2>Contract Manufacturing</h2>
 <p>Hytron is a contract manufacturing service provider.</p>
 
-<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_226894963.jpg"  width="220" height="220" /></div>
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_226894963.jpg"  width="220" height="220" /></div>
 
 <p>Through our outsourcing services, we have partnered with Fortune 500 companies for their component part manufacturing. This has resulted in a reduced time-to-market and cost savings for our Customers.</p>
 
@@ -135,7 +135,7 @@ const HomePageTemplate = ({
 
 <h2>Lean Manufacturing</h2>
 
-<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="slider2.jpg"  width="220" height="220" /></div>
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="slider2.jpg"  width="220" height="220" /></div>
 
 
 <p>Products you need –  at the desired volume – when you want them.</p>
@@ -151,7 +151,7 @@ const HomePageTemplate = ({
 {/* <img src="" alt="Placeholder" width="220" height="220" style={{float: 'right', margin:'0 0 1rem 1rem',}} /> */}
 <h2>The Hytron Difference</h2>
 
-<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', height:'', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_977142891.jpg"  width="220" height="220" /></div>
+<div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_977142891.jpg"  width="220" height="220" /></div>
 
 
 <p>With our best-in-class capabilities, high quality standards and supply chain tracking system we can deliver your products in the most cost effective way.</p>
