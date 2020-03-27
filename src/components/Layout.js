@@ -7,7 +7,7 @@ import config from '../../config'
 // import Install from '../components/Install'
 import PopContact from '../components/PopContact'
 // import 'typeface-lobster-two'
-import 'typeface-francois-one'
+import 'typeface-hammersmith-one'
 
 import "../css/index.scss"
 import Consent from '../components/Consent'
