@@ -164,7 +164,7 @@ const HomePageTemplate = ({
 </div>
 
 <ScrollAnimation animateIn="bounceInUp" delay={0}>
-<div className="outer">
+<div className="outer" style={{clear:'both'}}>
     <Contact className="container contactform" />
 </div>
 </ScrollAnimation>
