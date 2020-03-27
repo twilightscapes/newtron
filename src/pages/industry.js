@@ -56,7 +56,7 @@ content: (''); background-image: url('../img/hytron-bg1.svg') !important; height
 
 const industry = graphql`
   query industry {
-    allFile(filter: { relativeDirectory: { eq: "parts1" } }) {
+    allFile(filter: { relativeDirectory: { eq: "gallery1" } }) {
       edges {
         node {
           childImageSharp {
@@ -88,7 +88,7 @@ const Gal1Page = () => {
     
 	  <CustomBox>
        <Helmet>
-          <html lang="en" className="nobg" />
+          <html lang="en" className="nobg1" />
     </Helmet>
     <Layout>
 
@@ -194,26 +194,63 @@ Examples Of Our Work
 </section>
 
 
-
-
-<section className="  intro section">
+ <section className='section outer'>
 
 
 
+        <div className='container'>
+        
+        <div className="imgbox grad container" style={{float:'right', width:'50%', border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+        
+        <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+        
+        <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
+        </div>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+
+<div>
+<p><strong>Hytron Manufacturing, Inc.</strong><br />
+15582 Chemical Lane<br />
+Huntington Beach, CA 92649<br />
+Phone: (714) 903-6701<br />
+Fax: (714) 903-4381</p>
+
+
+<iframe className="" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+
+<br /><small><a target="_blank" href="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" >View Larger Map</a></small>
+</div>
+
+
+
+
+        </div>
+      </section>
+      
+       
+      
+      
+      
+      
+
+{/* <section className="  intro section">
       <div className="container" style={{background:'', padding:'2rem',}}>
-      <Gallery
+       <Gallery
         photos={data.allFile.edges}
-      />
+      /> 
       </div>
-</section>
+</section> */}
 
 
 
 
 
 
-<br />
-<br />
+
+
     
 
 <div className="content outer">
