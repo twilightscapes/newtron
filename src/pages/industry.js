@@ -115,16 +115,14 @@ Design, Manufacturing and Testing Capabilities
 <span className="txtshadow-header" style={{fontSize:'500%', color:'#ccc', position:'absolute', bottom:'-15px', right:'-10px',}}>&#10078;</span><br /> */}
 
 
+<h2>Innovation</h2>
 
-<h2>Quality Management System</h2>
+<p>Innovation is how we create value for our customers who are competing in today’s globally competitive marketplace. This continuing innovation process enables us to deliver more value while maintaining the highest degree of quality possible. Our unique expertise, derived from years of experience in a range of industries provide high-yield and high-volume production processes.</p>
 
-<p>We have developed and implemented a Quality Management System (QMS) to help our company demonstrate its ability to provide products that exceed customer requirements and to operate with increased effectiveness and efficiency with the overall aim of enhancing customer satisfaction.</p>
+<h2>Production Capabilities</h2>
 
-<p>Our system utilizes the process approach and quality management principles contained in the International Standards ISO 9001 and AS 9100.</p>
+<p>Our production capabilities and flexibility can take your application from concept to full production. Our product development assistance and in-house prototyping will ensure your production requirements can be met. Fast turn around on critical projects is one of Hytron’s greatest strengths.</p>
 
-<p>Our QMS is certified to all applicable requirements contained in ISO 9001 and AS 9100, the scope of which covers the manufacture of all company products, and encompasses all operations at our facility.</p>
-
-<p><strong>Hytron’s QMS received formal certification from NSF International.</strong></p>
 
 
 </p>

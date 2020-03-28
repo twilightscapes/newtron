@@ -107,7 +107,7 @@ Design, Manufacturing and Testing Capabilities
 
 <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'top', flexWrap:'no-wrap', position:'relative',  width:'100%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'100%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative', boxShadow: '0px 0px 5px 0px black', }}>
 
 <p>
@@ -127,6 +127,8 @@ Design, Manufacturing and Testing Capabilities
 <p><strong>Hytron’s QMS received formal certification from NSF International.</strong></p>
 
 
+
+
 </p>
 
 </div>
@@ -138,7 +140,7 @@ Design, Manufacturing and Testing Capabilities
 
 
 
- <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
+ <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
      <br />
  
@@ -174,9 +176,9 @@ Design, Manufacturing and Testing Capabilities
 
  </div>
  
+ </section>
  
  
- 
 
 
 
@@ -185,20 +187,79 @@ Design, Manufacturing and Testing Capabilities
 
 
 
-<div className="container" style={{padding:'10px'}}>
-<h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
-Examples Of Our Work
-</h3>
+
+
+
+
+
+
+<br /><br />
+<section className="about1 section" style={{padding:'0 4%', overflow:'hidden',}}>
+
+<div className="container" style={{padding:'10px', margin:'0 12% 1rem 12%',}}>
+<h2 className="" style={{textAlign:'center', fontSize:'160%',}}>
+Equipment List
+</h2>
 </div>
+
+
+
+
+<ul className="exif container" style={{background:'#666', clear:'both', margin:'20px'}}>
+<h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>CNC Mills – Total: 25</h2>
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability1.jpg" style={{borderColor:'transparent', display:'inline-block'}} />
+<br />
+<li className="" style={{width:'', textAlign:'center'}}>(13) HAAS VF-2</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS VF-O</li>
+<li className="" style={{width:'', textAlign:'center'}}>(6) HAAS VF-OE</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS VF-4</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS VF-5</li>
+<li className="" style={{width:'', textAlign:'center'}}>(3) HAAS TM-1</li>
+</ul>
+
+
+<ul className="exif container" style={{background:'#666'}}>
+<h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>CNC Lathes – Total: 7</h2>
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability3.jpg" style={{borderColor:'transparent',}} /><br />
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS SL-10 W/ Bar Feeder</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS SL-10</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS GT-10 W/ Bar Feeder</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) HAAS GT-10</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Hardinge T-42 W/ Bar Feeder</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Hardinge Cobra 42</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Hardinge HLV-H</li>
+</ul>
+
+
+<ul className="exif container" style={{background:'#666'}}>
+<h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>Other Equipment</h2>
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability4.jpg" style={{borderColor:'transparent',}} /><br />
+<li className="" style={{width:'', textAlign:'center'}}>(2) Doall Bandsaw C-916A</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Doall Vertical Band</li>
+<li className="" style={{width:'', textAlign:'center'}}>(2) Crest Ultrasonic Parts Cleaner</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) K.O. Lee Tool Grinder</li>
+<li className="" style={{width:'', textAlign:'center'}}>(2) Vector 200 Extrude Hone Machine</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Extrude Hone Coolpulse 200 Polishing Machine</li>
+<li className="" style={{width:'', textAlign:'center'}}>(2) Trinco Sand Blast Machine</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) 18” vibratory tumbler</li>
+<li className="" style={{width:'', textAlign:'center'}}>(1) Webvend Automated Tool Crib</li>
+<li className="" style={{width:'', textAlign:'center'}}>(2) Universal Laser Marking Machine</li>
+<li className="" style={{width:'', textAlign:'center'}}>Bench and pedestal grinding and buffing machines</li>
+
+</ul>
+
 
 </section>
 
 
-
-
+<br /><br />
 <section className="  intro section">
 
-
+<div className="container" style={{padding:'10px', margin:'0 10% 1rem 10%',}}>
+<h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
+Examples Of Our Work
+</h3>
+</div>
 
       <div className="container" style={{background:'', padding:'2rem',}}>
       <Gallery
