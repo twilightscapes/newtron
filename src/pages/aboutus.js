@@ -88,14 +88,14 @@ const Gal1Page = () => {
     
 	  <CustomBox>
        <Helmet>
-          <html lang="en" className="nobg" />
+          <html lang="en" className="nobg1" />
     </Helmet>
     <Layout>
 
 <section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden',}}>
 
 
-
+ <Image alt="Co-worker talks about Todd Lambert" filename="hytron-facility.jpg" style={{borderColor:'transparent',}} />
 
 <div className="container" style={{padding:'10px'}}>
 <h1 className="" style={{textAlign:'center', fontSize:'180%',}}>
@@ -117,6 +117,8 @@ About Hytron
 
 
 <h2>About Hytron</h2>
+
+
 
 <p>Founded in 1963, Hytron manufactures superior quality precision metal components to some of the most diverse industries in the global marketplace throughout the world. We utilize the latest in computer integrated manufacturing technology to ensure the highest level of precision, quality and efficiency in conformance with customer requirements.</p>
 
@@ -142,12 +144,16 @@ About Hytron
  
  <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.JPG" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
+ </div>
+ <br />
+  <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
+ <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2500.jpg" style={{borderColor:'transparent',}} />
  
-
+ <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
  </div>
   
  

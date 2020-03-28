@@ -99,7 +99,7 @@ const Gal1Page = () => {
 
 <div className="container" style={{padding:'10px'}}>
 <h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
-Design, Manufacturing and Testing Capabilities
+Industries that Hytron serves
 </h3>
 </div>
 
@@ -107,7 +107,7 @@ Design, Manufacturing and Testing Capabilities
 
 <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'100%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
- <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
+ <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'100%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative', boxShadow: '0px 0px 5px 0px black', }}>
 
 <p>
@@ -119,6 +119,7 @@ Design, Manufacturing and Testing Capabilities
 
 <p>Innovation is how we create value for our customers who are competing in today’s globally competitive marketplace. This continuing innovation process enables us to deliver more value while maintaining the highest degree of quality possible. Our unique expertise, derived from years of experience in a range of industries provide high-yield and high-volume production processes.</p>
 
+<br /><br />
 <h2>Production Capabilities</h2>
 
 <p>Our production capabilities and flexibility can take your application from concept to full production. Our product development assistance and in-house prototyping will ensure your production requirements can be met. Fast turn around on critical projects is one of Hytron’s greatest strengths.</p>
@@ -136,13 +137,13 @@ Design, Manufacturing and Testing Capabilities
 
 
 
- <ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
+ <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
      <br />
  
  <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Co-worker talks about Todd Lambert" filename="img_3136.jpg" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
  
@@ -185,7 +186,7 @@ Design, Manufacturing and Testing Capabilities
 
 <div className="container" style={{padding:'10px'}}>
 <h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
-Examples Of Our Work
+How can Hytron help your company?
 </h3>
 </div>
 
@@ -193,40 +194,19 @@ Examples Of Our Work
 
 
  <section className='section outer'>
-
-
-
-        <div className='container'>
+ <div className='container content'>
         
-        <div className="imgbox grad container" style={{float:'right', width:'50%', border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
         
-        <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
-        
-        <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
-        </div>
+
 
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
 
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
 
-<div>
-<p><strong>Hytron Manufacturing, Inc.</strong><br />
-15582 Chemical Lane<br />
-Huntington Beach, CA 92649<br />
-Phone: (714) 903-6701<br />
-Fax: (714) 903-4381</p>
 
 
-<iframe className="" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-
-<br /><small><a target="_blank" href="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" >View Larger Map</a></small>
-</div>
-
-
-
-
-        </div>
-      </section>
+ </div>
+ </section>
       
        
       
