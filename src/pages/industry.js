@@ -105,7 +105,7 @@ Industries that Hytron serves
 
 
 
-<div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'100%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
+<div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'top', flexWrap:'no-wrap', position:'relative',  width:'100%', margin:'0 auto', padding:'1rem', borderRadius:'12px', overflow:'',}}>
 
  <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'100%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative', boxShadow: '0px 0px 5px 0px black', }}>
@@ -139,35 +139,27 @@ Industries that Hytron serves
 
  <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
-     <br />
- 
- <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
- 
- <Image alt="Co-worker talks about Todd Lambert" filename="img_3136.jpg" style={{borderColor:'transparent',}} />
- 
- <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
- 
- 
 
- </div>
-  
-  <br />
 
 <div className="imgbox container" style={{border:'0px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'2rem', marginLeft:'1rem', overflow:'hidden', background:'#222', color:'#fff',}}>
 
-<h4>Inspection Equipment</h4>
-
-<ul>
-<li>Tesa Micro-Hite CMM</li>
-<li>Brown & Sharpe Gage 2000 CMM</li>
-<li>Scherr-Tumico Quadra-Check 200 Comparator</li>
-<li>Scheer-Tumico 14” Optical Comparator</li>
-<li>Rockwell Hardness Tester</li>
-<li>Surface Plates 24" x 48" Max</li>
-<li>Extensive line of Quality Measuring Equipment</li>
-</ul>
-
-
+<h4 style={{textAlign:'center'}}>Partners:</h4>
+ <Image alt="Co-worker talks about Todd Lambert" filename="honeywell-logo.png" style={{borderColor:'transparent',}} />
+ <br />
+  <Image alt="Co-worker talks about Todd Lambert" filename="eaton-logo.png" style={{borderColor:'transparent',}} />
+  <br />
+     <Image alt="Co-worker talks about Todd Lambert" filename="covidien-logo.png" style={{borderColor:'transparent',}} />
+  <br />
+   <Image alt="Co-worker talks about Todd Lambert" filename="freedom-logo.png" style={{borderColor:'transparent',}} />
+   <br />
+   <Image alt="Co-worker talks about Todd Lambert" filename="ichor-logo.png" style={{borderColor:'transparent',}} />
+   <br />
+   <Image alt="Co-worker talks about Todd Lambert" filename="ultra-logo.png" style={{borderColor:'transparent',}} />
+   <br />
+   <Image alt="Co-worker talks about Todd Lambert" filename="wyatt-logo.png" style={{borderColor:'transparent',}} />
+   <br />
+   <Image alt="Co-worker talks about Todd Lambert" filename="zodiac-logo.png" style={{borderColor:'transparent',}} />
+   <br />
 </div>
 </ScrollAnimation>
 
