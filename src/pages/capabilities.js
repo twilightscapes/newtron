@@ -118,13 +118,13 @@ Design, Manufacturing and Testing Capabilities
 
 <h2>Quality Management System</h2>
 
-<p>We have developed and implemented a Quality Management System (QMS) to help our company demonstrate its ability to provide products that exceed customer requirements and to operate with increased effectiveness and efficiency with the overall aim of enhancing customer satisfaction.</p>
+<p>Hytron’s Quality Management System (QMS) is ISO 9001:2015 and AS9100D certified which is the standard for the aerospace, aviation, space and defense industries. As a certified contract manufacturer, this certification underscores out commitment to quality and on-time delivery of the products and services we provide to our customers.</p>
 
-<p>Our system utilizes the process approach and quality management principles contained in the International Standards ISO 9001 and AS 9100.</p>
+<p>With our Haas CNC machining centers, Hytron provides precision CNC machining of numerous materials, including stainless steel and aluminum machining. We specialize in precision milling and turning while also providing other machining services, which cover the entire production process such as  conventional milling, drilling, turning, and sawing, as well as grinding and honing, deburring, and part marking. With our approved, certified suppliers, we can also provide heat treating, welding, plating, and painting.</p>
 
-<p>Our QMS is certified to all applicable requirements contained in ISO 9001 and AS 9100, the scope of which covers the manufacture of all company products, and encompasses all operations at our facility.</p>
+<p>We specialize in small to medium sized parts in many different quantities. From one-piece short run prototypes to very large volume production. Whether your part contains one component or many, needs special processing or assembly capabilities, our production team can take your project from conception to production. We are the trusted go-to source for the aerospace, medical, commercial, military, and computer industries for over 55 years in business.  Let our dedicated team take your vision/concept and make it a reality.</p>
 
-<p><strong>Hytron’s QMS received formal certification from NSF International.</strong></p>
+<p>We have built a long standing reputation as a manufacturer of precision products that are field proven and time tested.  Contact one of our professionals for information on your specific manufacturing requirements.</p>
 
 
 
@@ -142,11 +142,11 @@ Design, Manufacturing and Testing Capabilities
 
  <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
-     <br />
+
  
  <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
  
@@ -155,6 +155,19 @@ Design, Manufacturing and Testing Capabilities
  </div>
   
   <br />
+  
+  
+   <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+  
+  <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+  
+  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
+  
+  
+ 
+  </div>
+   
+   <br />
 
 <div className="imgbox container" style={{border:'0px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'2rem', marginLeft:'1rem', overflow:'hidden', background:'#222', color:'#fff',}}>
 

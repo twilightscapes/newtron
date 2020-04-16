@@ -137,7 +137,7 @@ Industries that Hytron serves
 
 
 
- <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
+ <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{display:'none', width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
 
 

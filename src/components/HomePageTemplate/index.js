@@ -120,9 +120,9 @@ const HomePageTemplate = ({
 
 <div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_226894963.jpg"  width="220" height="220" /></div>
 
-<p>Through our outsourcing services, we have partnered with Fortune 500 companies for their component part manufacturing. This has resulted in a reduced time-to-market and cost savings for our Customers.</p>
+<p>Hytron is a U. S. owned and operated contract manufacturing service provider. Since 1963, we have partnered with Fortune 500 companies for their component part manufacturing by providing solutions that yield unique competitive advantages. This has resulted in a reduced time-to-market and cost savings for our Customers.</p>
 
-<p>Our manufacturing capabilities range from prototype fabrication to close tolerance machining in production volumes to support your requirements.</p>
+<p>Our manufacturing capabilities range from prototype fabrication to close tolerance machining at the sub-assembly level through complete end-to-end manufacturing in production volumes to support your requirements.</p>
 </div>
 </div>
 
@@ -140,7 +140,9 @@ const HomePageTemplate = ({
 
 <p>Products you need –  at the desired volume – when you want them.</p>
 
-<p>Our supply chain expertise in Build-to-Order  product assembly and our proprietary quoting, planning, quality inspection and supply chain management capability create cost effective fulfillment solutions. Let us show you how we can tailor a “Kanban” replenishment program to meet your needs and avoid supply chain disruptions</p>
+<p>Products you need –  at the desired volume – when you want them.<br />
+Our supply chain expertise in Build-to-Order product assembly and our proprietary quoting, planning, quality inspection and supply chain management capability create cost effective fulfillment solutions. These lean manufacturing capabilities provide our customers a competitive edge that other contract manufacturers simply can't provide.
+Let us show you how we can tailor a “Kanban” replenishment program to meet your needs and avoid supply chain disruptions.</p>
 </div>
 </div>
 
@@ -154,7 +156,8 @@ const HomePageTemplate = ({
 <div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_977142891.jpg"  width="220" height="220" /></div>
 
 
-<p>With our best-in-class capabilities, high quality standards and supply chain tracking system we can deliver your products in the most cost effective way.</p>
+<p>With our best-in-class capabilities, high quality standards and with our supply chain tracking system we can deliver your products in the most cost effective timely way. Today more than ever, we are looking for ways to deliver more value to our customers and our continued focus on manufacturing innovation allows us to do so.</p>
+
 <p>Let Hytron assist you with bringing your product to market.</p>
 <br />
 <br />
