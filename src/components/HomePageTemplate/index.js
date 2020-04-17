@@ -140,7 +140,7 @@ const HomePageTemplate = ({
 
 <p>Products you need –  at the desired volume – when you want them.</p>
 
-<p>Products you need –  at the desired volume – when you want them.<br />
+<p>
 Our supply chain expertise in Build-to-Order product assembly and our proprietary quoting, planning, quality inspection and supply chain management capability create cost effective fulfillment solutions. These lean manufacturing capabilities provide our customers a competitive edge that other contract manufacturers simply can't provide.
 Let us show you how we can tailor a “Kanban” replenishment program to meet your needs and avoid supply chain disruptions.</p>
 </div>
