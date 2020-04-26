@@ -140,21 +140,20 @@ About Hytron
 
  <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
-     <br />
- 
- <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
- 
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.JPG" style={{borderColor:'transparent',}} />
- 
- <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
- </div>
+
+ <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+
+<Image alt="Co-worker talks about Todd Lambert" filename="img_3136.jpg" style={{borderColor:'transparent',}} />
+
+<div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
+</div>
  <br />
-  <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
- 
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2500.jpg" style={{borderColor:'transparent',}} />
- 
- <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
- </div>
+ <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+
+<Image alt="Co-worker talks about Todd Lambert" filename="capability1.jpg" style={{borderColor:'transparent',}} />
+
+<div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
+</div>
   
  
 </ScrollAnimation>
@@ -234,8 +233,8 @@ About Hytron
 
 
 
-<div style={{width:'50%', margin:'0 auto'}}>
-<h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
+<div style={{width:'50%', margin:'0 auto', textAlign:'center',}}>
+<h3 className="" style={{ fontSize:'160%',}}>
 Our Location
 </h3><br />
 

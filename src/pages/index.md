@@ -66,10 +66,9 @@ testimonials:
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et
       dignissim ligula.  Lorem ipsum dolor sit amet, consectetur adipiscing
       elit.
-meta_title: Todd Lambert | Frontend Web Developer and Night Photographer
+meta_title: Hytron Manufacturing | world-class machining, milling and turning services
 meta_description: >-
-  Ultra-fast websites that use state-of-the-art technology, are modern designed
-  and 100% flexible to work great everywhere.
+ Hytron manufactures superior quality precision metal components with the highest level of precision, quality and efficiency in conformance
 
   Let Todd build your site today!
 ---

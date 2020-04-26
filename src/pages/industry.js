@@ -115,6 +115,14 @@ How can Hytron help your company?
  <div className='container content'>
         
         
+ 
+  <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+ 
+ <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2500.jpg" style={{borderColor:'transparent',}} />
+ 
+ <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
+ </div>
+  <br />
 
 
 <p>At Hytron, we will provide you with world-class machining, milling and turning services. Our highly trained team of machinists use our state-of-the-art, high-precision CNC machines to manufacture incredible components trusted for their high quality and reliability.</p>

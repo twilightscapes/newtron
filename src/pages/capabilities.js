@@ -144,7 +144,7 @@ Design, Manufacturing and Testing Capabilities
  
 
  
- <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+ <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
  <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
  
@@ -157,7 +157,7 @@ Design, Manufacturing and Testing Capabilities
   <br />
   
   
-   <div className="imgbox grad container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+   <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
   
   <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
   

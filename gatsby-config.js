@@ -119,7 +119,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Pick 6 Golf Content Manager`,
+        htmlTitle: `Hytron Content Manager`,
       },
     },
 

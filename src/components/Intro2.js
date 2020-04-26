@@ -103,11 +103,11 @@ const Intro2 = () => (
   <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
   
    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="slider1.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="home-slider1.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
       
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="img_2487.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="home-slider2.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="shutterstock_2208127601.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="home-slider3.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     
