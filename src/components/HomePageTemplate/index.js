@@ -166,7 +166,7 @@ Let us show you how we can tailor a “Kanban” replenishment program to meet y
 
 </div>
 
-<ScrollAnimation animateIn="bounceInUp" delay={0}>
+<ScrollAnimation animateIn="fadeIn" delay={0}>
 <div className="outer" style={{clear:'both'}}>
     <Contact className="container contactform" />
 </div>

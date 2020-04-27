@@ -11,6 +11,8 @@ import Contact from '../components/Contact-inc'
 import ScrollAnimation from 'react-animate-on-scroll'
 // import GalleryMenu from '../components/GalleryMenu'
 // import { FiZoomIn } from 'react-icons/fi'
+import { FaFileDownload } from 'react-icons/fa'
+ 
 // import PopSemi from '../components/PopSemi'
 
 import styled from "styled-components"
@@ -92,16 +94,18 @@ const Gal1Page = () => {
     </Helmet>
     <Layout>
 
-<section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden',}}>
+<section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden', background:'#ccc',}}>
 
 
  <Image alt="Co-worker talks about Todd Lambert" filename="hytron-facility.jpg" style={{borderColor:'transparent',}} />
 
 <div className="container" style={{padding:'10px'}}>
 <h1 className="" style={{textAlign:'center', fontSize:'180%',}}>
-About Hytron
+About Hytron Manufacturing
 </h1>
 </div>
+
+
 
 
 
@@ -116,7 +120,7 @@ About Hytron
 
 
 
-<h2>About Hytron</h2>
+<h2>Hytron Manufacturing Inc.</h2>
 
 
 
@@ -206,7 +210,11 @@ About Hytron
  <br />
  <p>If you have the talent, believe you qualify, and want to join our team then please fill out our online contact form, submit your resume and download our Job Application form. Complete the form and upload it to us for evaluation and possible job interview.</p>
  
- 
+
+
+<div className=" "  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', margin:'0 auto', padding:'2rem',}}>
+
+<a target="_blank" href="https://toddlambert.com" ><p style={{padding:'4px 10px', borderRadius:'3px'}} class="grad">Download Job Application <div style={{float:'right', position:'relative', padding:'0 0 0 10px'}}> <FaFileDownload /></div></p></a></div>
  
   </div>
   </section>
