@@ -94,7 +94,7 @@ const Gal1Page = () => {
     </Helmet>
     <Layout>
 
-<section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden', background:'#ccc',}}>
+<section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden', background:'#666',}}>
 
 
  <Image alt="Co-worker talks about Todd Lambert" filename="hytron-facility.jpg" style={{borderColor:'transparent',}} />
@@ -214,7 +214,7 @@ About Hytron Manufacturing
 
 <div className=" "  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', margin:'0 auto', padding:'2rem',}}>
 
-<a target="_blank" href="Job-App_Web.pdf" style={{textDecoration:'none'}}><p style={{padding:'4px 10px', borderRadius:'3px'}} class="grad special">Download Job Application <div style={{float:'right', position:'relative', padding:'0 0 0 10px'}}> <FaFileDownload /></div></p></a></div>
+<a target="_blank" href="hytron-manufacturing-job-app.pdf" style={{textDecoration:'none'}}><p style={{padding:'4px 10px', borderRadius:'3px'}} class="grad special">Download Job Application <div style={{float:'right', position:'relative', padding:'0 0 0 10px'}}> <FaFileDownload /></div></p></a></div>
  
   </div>
   </section>
