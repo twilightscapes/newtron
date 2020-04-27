@@ -148,6 +148,7 @@ Let us show you how we can tailor a “Kanban” replenishment program to meet y
 
 
 
+
 <div className="container">
 <div className="content" style={{padding:'1rem 1rem',}}>
 {/* <img src="" alt="Placeholder" width="220" height="220" style={{float: 'right', margin:'0 0 1rem 1rem',}} /> */}
