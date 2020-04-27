@@ -217,11 +217,10 @@ Equipment List
 
 
 
-
-<ul className="exif container" style={{background:'#666', clear:'both', margin:'20px'}}>
+<div className="container">
 <h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>CNC Mills – Total: 25</h2>
  <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability1.jpg" style={{borderColor:'transparent', display:'inline-block'}} />
-<br />
+<ul className="exif" style={{background:'#666', clear:'both', margin:'20px'}}>
 <li className="" style={{width:'', textAlign:'center'}}>(13) HAAS VF-2</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) HAAS VF-O</li>
 <li className="" style={{width:'', textAlign:'center'}}>(6) HAAS VF-OE</li>
@@ -229,11 +228,12 @@ Equipment List
 <li className="" style={{width:'', textAlign:'center'}}>(1) HAAS VF-5</li>
 <li className="" style={{width:'', textAlign:'center'}}>(3) HAAS TM-1</li>
 </ul>
+</div>
 
-
-<ul className="exif container" style={{background:'#666'}}>
+<div className="container">
 <h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>CNC Lathes – Total: 7</h2>
- <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability3.jpg" style={{borderColor:'transparent',}} /><br />
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability3.jpg" style={{borderColor:'transparent',}} />
+<ul className="exif" style={{background:'#666', clear:'both', margin:'20px'}}>
 <li className="" style={{width:'', textAlign:'center'}}>(1) HAAS SL-10 W/ Bar Feeder</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) HAAS SL-10</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) HAAS GT-10 W/ Bar Feeder</li>
@@ -242,11 +242,13 @@ Equipment List
 <li className="" style={{width:'', textAlign:'center'}}>(1) Hardinge Cobra 42</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) Hardinge HLV-H</li>
 </ul>
+</div>
 
 
-<ul className="exif container" style={{background:'#666'}}>
+<div className="container">
 <h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>Other Equipment</h2>
- <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability4.jpg" style={{borderColor:'transparent',}} /><br />
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability4.jpg" style={{borderColor:'transparent',}} />
+<ul className="exif" style={{background:'#666', clear:'both', margin:'20px'}}>
 <li className="" style={{width:'', textAlign:'center'}}>(2) Doall Bandsaw C-916A</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) Doall Vertical Band</li>
 <li className="" style={{width:'', textAlign:'center'}}>(2) Crest Ultrasonic Parts Cleaner</li>
@@ -258,9 +260,8 @@ Equipment List
 <li className="" style={{width:'', textAlign:'center'}}>(1) Webvend Automated Tool Crib</li>
 <li className="" style={{width:'', textAlign:'center'}}>(2) Universal Laser Marking Machine</li>
 <li className="" style={{width:'', textAlign:'center'}}>Bench and pedestal grinding and buffing machines</li>
-
 </ul>
-
+</div>
 
 </section>
 

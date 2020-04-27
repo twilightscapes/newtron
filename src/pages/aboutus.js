@@ -214,12 +214,12 @@ About Hytron Manufacturing
 
 <div className=" "  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', margin:'0 auto', padding:'2rem',}}>
 
-<a target="_blank" href="https://toddlambert.com" ><p style={{padding:'4px 10px', borderRadius:'3px'}} class="grad">Download Job Application <div style={{float:'right', position:'relative', padding:'0 0 0 10px'}}> <FaFileDownload /></div></p></a></div>
+<a target="_blank" href="Job-App_Web.pdf" style={{textDecoration:'none'}}><p style={{padding:'4px 10px', borderRadius:'3px'}} class="grad special">Download Job Application <div style={{float:'right', position:'relative', padding:'0 0 0 10px'}}> <FaFileDownload /></div></p></a></div>
  
   </div>
   </section>
  
- 
+
  
  
  
