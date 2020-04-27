@@ -137,7 +137,8 @@ About Hytron Manufacturing
 </ScrollAnimation>
 
 
-
+<br />
+<br />
 
 
 
@@ -191,23 +192,25 @@ About Hytron Manufacturing
  
  <p>We offer very challenging job opportunities producing parts for some of the most exciting global industries. Hytron offers it's full-time employees very competitive wages and a complete range of generous benefits which include a 401K retirement plan, paid vacation, paid holidays and optional medical and dental insurance plans. </p>
  
- <h4>Current Positions Available</h4>
- 
+ <h2>Current Positions Available</h2>
+ <br />
  <h3><strong>CNC Operator</strong></h3>
  <p>Hytron is currently looking for CNC operators. Preference will be given to candidates that have experience in CNC laser cutting and have a minimum of two years experience. Successful candidates must have Vertical or Horizontal Machine experience and a commitment to quality, safety, and customer satisfaction.</p>
  
  <h3><strong>CNC Setup Technician</strong></h3>
  <p>Hytron is currently looking for an experienced CNC setup technician for our HAAS vertical mills. Minimum of 5 years experience and must be familiar with our Mastercam Software. Successful candidates must have Vertical or Horizontal Machine experience and a commitment to quality, safety, and customer satisfaction.</p>
- 
- <h4>Other Positions Not Currently Available</h4>
+ <br />
+ <h2>Other Positions Not Currently Available</h2>
+ <br />
  <strong>Quality Control Inspector</strong><br />
  <strong>CNC Lathe Operator</strong><br />
  <strong>Tool & Die Maker</strong><br />
- 
+ <br /><br />
  We currently operate two shifts (with some occasional overtime):<br />
  1st Shift - Hours 6:00am - 2:30pm Mon-Fri<br />
  2nd Shift - Hours 2:30:pm - 11:00pm Mon-Fri<br />
  <br />
+
  <p>If you have the talent, believe you qualify, and want to join our team then please fill out our online contact form, submit your resume and download our Job Application form. Complete the form and upload it to us for evaluation and possible job interview.</p>
  
 
@@ -241,7 +244,7 @@ About Hytron Manufacturing
 
 
 
-<div style={{width:'50%', margin:'0 auto', textAlign:'center',}}>
+<div style={{width:'90%', margin:'0 auto', textAlign:'center',}}>
 <h3 className="" style={{ fontSize:'160%',}}>
 Our Location
 </h3><br />
@@ -258,7 +261,7 @@ Fax: (714) 903-4381</p>
 
 <iframe className="" width="100%" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 
-<br /><small><a target="_blank" href="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" >View Larger Map</a></small>
+<br /><small><a style={{textAlign:'center'}} target="_blank" href="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" >View Larger Map</a></small>
 
 
 
@@ -268,7 +271,7 @@ Fax: (714) 903-4381</p>
 </section>
 
 
-
+<br />
 
 
 
