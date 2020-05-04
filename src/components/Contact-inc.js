@@ -76,7 +76,7 @@ export default class Contact extends React.Component {
               >
 
 <h2 className="" style={{textAlign:'center', fontSize:'180%',}}>
-Contact Us
+CCPA Request
 </h2>
 
                

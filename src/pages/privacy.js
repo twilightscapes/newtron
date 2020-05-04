@@ -45,6 +45,8 @@ c. To administer our web site, troubleshoot issues or perform site maintenance.<
 Hytron Manufacturing, Inc.<br />
 15582 Chemical Lane<br />
 Huntington Beach, CA 92649</p>
+<br />
+<p style={{textAlign:'center'}}><a href="/privacy-form">Submit a CCPA Request</a></p>
 
 
 
