@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import CCPA from '../components/privacy-form-inc'
 
 const Privacy = () => (
   <Layout>
@@ -46,11 +47,9 @@ Hytron Manufacturing, Inc.<br />
 15582 Chemical Lane<br />
 Huntington Beach, CA 92649</p>
 <br />
-<p style={{textAlign:'center'}}><a href="/privacy-form">Submit a CCPA Request</a></p>
+<h2>CCPA Request</h2>
 
-
-
-
+<CCPA />
 
 
 

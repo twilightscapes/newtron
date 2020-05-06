@@ -116,7 +116,7 @@ const HomePageTemplate = ({
 
 
 <h2>Contract Manufacturing</h2>
-<p>Hytron is a contract manufacturing service provider.</p>
+
 
 <div className="container" style={{float: 'right', margin:'1rem 0 1rem 1rem', width:'50%', maxWidth:'50%', minHeight:'150px', overflow:'hidden'}}><Image alt="Hytron Manufacturing Precision Parts and Machining" filename="shutterstock_226894963.jpg"  width="220" height="220" /></div>
 
