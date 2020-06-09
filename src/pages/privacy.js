@@ -11,11 +11,13 @@ const Privacy = () => (
 
 
 <h2 className="storytitle">Privacy Policy</h2>
-<p>Privacy Policy (December 16, 2019)</p>
+<p>Privacy Policy Issue Date: December 16, 2019</p>
+<p>Revision Date: May 5, 2020.</p>
 <h3>1. WHO WE ARE</h3>
 <p>This web site (hytronmanufacturing.com) is owned and operated by Hytron Manufacturing Incorporated and will be referred to as “we”, “our”, “us” and like terms to refer to Hytron. By using this Web Site, you agree to this Privacy Policy as set forth on this page. Our Privacy Policy discloses the privacy practices we use and applies solely to information collected by this Web Site. We are committed to maintaining the accuracy, confidentiality and security of your personal information. This web site may include links to third-party web sites and clicking on those links may allow third parties to collect or share data about you. We do not control these web sites and are not responsible for their privacy policies.</p>
 <h3>2. DATA WE COLLECT ABOUT YOU</h3>
-<p>We do not sell or rent your personal information.<br />
+<h4><strong>We do not sell or rent your personal information.</strong></h4>
+<p>
 Personal information means any information that identifies you as an individual. We only have access to and/or collect personal information that you voluntarily give us via e-mail or other direct contact from you. Personal information that visitors submit to our site is used only for the purpose for which it is submitted, unless we disclose other uses in this Privacy Policy or at the time of collection. Unless you ask us not to, we may contact you via e-mail in the future to tell you about new products or services, or changes to this Privacy Policy. Also, we may disclose personal information when we believe in good faith that the law requires disclosure. We collect personal data about you to provide our services, which in most cases may include: first and last name, e-mail address, phone number, job title, and company name. We use this information to provide you with our web site services and to communicate with you. We may also collect and use data that is passively collected when you use our we site or by third party analytic tools we use.<br />
 This data may be derived from your personal data but is not considered personal data as this data does not directly or indirectly reveal your identity. For example, we may aggregate your usage data to calculate the percentage of users accessing a specific web site feature or page.</p>
 <h3>3. HOW WE COLLECT YOUR PERSONAL DATA</h3>
@@ -41,7 +43,8 @@ c. To administer our web site, troubleshoot issues or perform site maintenance.<
 <h3>9. HOW YOU CAN CONTACT US</h3>
 <p>If you have any questions or wish to register a complaint in relation to this Privacy Policy or the manner in which your personal data is used by us, please contact us by any of the following means:</p>
 <p>a. By using our web site contact page.</p>
-<p>b. By Mail:</p>
+<p>b. By email: <a href="mailto:privacy@hytronmfg.com">privacy@hytronmfg.com</a></p>
+<p>c. By mail:</p>
 <p>Attn: Privacy Compliance<br />
 Hytron Manufacturing, Inc.<br />
 15582 Chemical Lane<br />

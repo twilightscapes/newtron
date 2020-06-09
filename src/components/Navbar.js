@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchBox from '../components/SearchBox'
+// import SearchBox from '../components/SearchBox'
 import logo from '../img/hytron-logo.svg'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
@@ -125,15 +125,7 @@ input.navbar-link{width:80%; margin-top:5px;}
 
 
 const NavBar = ({ toggleNavbar, isActive }) => (
-  <StaticQuery
-    query={graphql`
-            query SearchIndexQuery {
-                siteSearchIndex {
-                    index
-                }
-            }
-        `}
-    render={data => (
+  
 
 
 
@@ -278,13 +270,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 
 <label className="close" htmlFor="semitoggle" style={{position: 'absolute', right:'10px', top: '34px', fontSize:'20px', cursor:'pointer',}} title="Close this section"><FaTimesCircle /></label>
     
-<div className="container" style={{margin:'0', padding:'0px',}}>
-    
 
-    <div className="searchbox" style={{padding:'3px 1rem 0 0',}}><SearchBox searchIndex={data.siteSearchIndex.index} /></div>
-
-
- </div>
     
     
    
@@ -306,8 +292,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 </>
       
       
-   )}
-  />
+
 )
 
 export default NavBar
