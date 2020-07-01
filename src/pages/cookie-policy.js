@@ -10,7 +10,7 @@ const Terms = () => (
 
 
 <h2 className="storytitle">Cookie Policy</h2>
-<p><b>Our Cookie Policy</b><b>(Last Updated: December 16, 2019)</b></p>
+<p><b>Our Cookie Policy</b> <b>(Last Updated: July 1, 2020)</b></p>
 <p><b>1. INTRODUCTION</b></p>
 <p>To make our web site work properly and to ensure you receive the most relevant products and services, we store cookies on your web browser as does other third parties you choose to visit. Our Cookie Policy describes what a cookie is, how you can manage them, and what kind of cookies we may use to make for a better experience when visiting Hytron’s web site.</p>
 <p><b>2. WHAT ARE COOKIES AND HOW ARE THEY USED?</b></p>

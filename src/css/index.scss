@@ -236,6 +236,8 @@ margin: 0 10px 5px 0 !important;
 
 
 
+//  modal overflow fix
+.modal-content{overflow:hidden !important;}
 
 .modal-btn {
     display: block;
@@ -1712,7 +1714,9 @@ margin: 0 !important;
  .animated, footer, .back-to-top, .noprint, .installer, .modal-container, .about:after {display: none !important;}
  .printonly{display: block !important;}
  .edu li{margin:1rem 0 !important;}
-	
+  
+
+
 /* Body Stuff */
 
 /* text formatting */
@@ -1778,6 +1782,8 @@ padding:0 !important;
 
 
 }
+
+
 
 
 

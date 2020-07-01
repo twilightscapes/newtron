@@ -384,7 +384,7 @@ export default class Contact extends React.Component {
 <p>Please provide any information that might be helpful in fulfilling your request in regards to how you have engaged with Hytron.</p>
 
 
-<textarea style={{maxHeight:'100px'}} id="tfa_2192" name="tfa_2192" placeholder="For example, I used a Hytron part previously or I’ve submitted something online to Hytron"></textarea>
+<textarea style={{maxHeight:'100px'}} id="tfa_2192" name="tfa_2192"></textarea>
 
 
 
