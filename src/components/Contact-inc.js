@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
               
 
               <form
-                name="Hytron Contact Form"
+                name="file-upload"
                 method="post"
                 action="/contact/success/"
                 data-netlify="true"
