@@ -66,9 +66,9 @@ export default class Contact extends React.Component {
               
 
               <form
-                name="contact-inc"
+                name="Hytron Contact Form"
                 method="post"
-                action="/contact/thanks/"
+                action="/contact/success/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}

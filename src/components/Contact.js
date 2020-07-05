@@ -66,9 +66,9 @@ export default class Contact extends React.Component {
               
 
               <form
-                name="file-upload"
+                name="Hytron Request Quote"
                 method="post"
-                action="/contact/thanks/"
+                action="/contact/success/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}

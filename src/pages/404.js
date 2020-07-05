@@ -3,25 +3,17 @@ import Layout from '../components/Layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <section className='hero is-primary is-bold is-large'>
-      <div className='hero-body'>
-        <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section is-centered'>
-                <h1 className='title'>
-                                    404: NOT FOUND
-                </h1>
-                <h2 className='subtitle'>
-                                    You just hit a route that doesn&#39;t exist... the
-                                    sadness.
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section className="about1 outer section" style={{paddingTop:'0', overflow:'hidden', }}>
+
+
+
+
+<div className="container" style={{padding:'10px'}}>
+<h1 className="" style={{textAlign:'center', fontSize:'180%',}}>
+Page Not Found
+</h1>
+</div>
+</section>
   </Layout>
 )
 
