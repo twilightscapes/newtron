@@ -1,5 +1,9 @@
 User-agent: *
 Disallow: */admin/
 Disallow: */tags/
+Disallow: */blog/
+Disallow: */pricing/
+Disallow: */contact/
+Disallow: */aboutus/
 
-sitemap: https://gatsby-starter-business.netlify.com/sitemap.xml
+sitemap: https://hytronmanufacturing.com/sitemap.xml

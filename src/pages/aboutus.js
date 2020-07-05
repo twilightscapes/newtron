@@ -148,14 +148,14 @@ About Hytron Manufacturing
 
  <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
 
-<Image alt="Co-worker talks about Todd Lambert" filename="img_3136.jpg" style={{borderColor:'transparent',}} />
+<Image alt="Precision Parts Made To Order" filename="img_3136.jpg" style={{borderColor:'transparent',}} />
 
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
 </div>
  <br />
  <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
 
-<Image alt="Co-worker talks about Todd Lambert" filename="capability1.jpg" style={{borderColor:'transparent',}} />
+<Image alt="Modern facilities" filename="IMG_2486.JPG" style={{borderColor:'transparent',}} />
 
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
 </div>
@@ -204,7 +204,7 @@ About Hytron Manufacturing
  <br />
  <strong>Quality Control Inspector</strong><br />
  <strong>CNC Lathe Operator</strong><br />
- <strong>Tool & Die Maker</strong><br />
+ <strong>Tool &amp; Die Maker</strong><br />
  <br /><br />
  We currently operate two shifts (with some occasional overtime):<br />
  1st Shift - Hours 6:00am - 2:30pm Mon-Fri<br />
