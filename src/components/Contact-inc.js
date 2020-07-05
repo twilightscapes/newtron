@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
               
 
               <form
-                name="contact-inc"
+                name="contact"
                 method="post"
                 action="/contact/success/"
                 data-netlify="true"
@@ -87,7 +87,7 @@ Contact Us
                     Don’t fill this out:{' '}
                     <input name="bot-field" onChange={this.handleChange} />
                   </label>
-                  <label htmlFor="form-name">upload</label><input type="hidden" name="form-name" value="contact-inc" />
+                  <label htmlFor="form-name">upload</label><input type="hidden" name="form-name" value="contact" />
                 </div>
 
                 <div className="form">
