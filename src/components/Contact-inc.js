@@ -112,20 +112,20 @@ Contact Us
                       required={true}
                       placeholder="your@email.com"
                     />
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0',}}>Upload file:</label>
+                    <label htmlFor="attachment1" style={{padding: '0', margin: '0',}}>Upload file:</label>
                     <div className="upload" style={{ border: '0px solid', padding: '12px', borderRadius: '5px', boxShadow: '0px 0px 1px 1px #999', color: '#999',}}>
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%', color: '#333',}}>
+                    <label htmlFor="attachment1" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%', color: '#333',}}>
                     ZIP files preferred
                     <input
                         className="file-input hidden"
                         type="file"
-                        id="attachment"
-                        name="attachment"
+                        id="attachment1"
+                        name="attachment1"
                         onChange={this.handleAttachment}
                       />
                       </label>
                       
-<label className="upload" htmlFor="attachment" style={{background: '#eee', width: '48%', justifyContent: 'center', color: '#333', padding: '5px 15px', textAlign: 'center', borderRadius:'4px', margin: '0 auto', fontSize: '70%', whiteSpace: 'nowrap',}}  >Select file</label></div>
+<label className="upload" htmlFor="attachment1" style={{background: '#eee', width: '48%', justifyContent: 'center', color: '#333', padding: '5px 15px', textAlign: 'center', borderRadius:'4px', margin: '0 auto', fontSize: '70%', whiteSpace: 'nowrap',}}  >Select file</label></div>
                 </div>
 
                 <div className="field half right">
