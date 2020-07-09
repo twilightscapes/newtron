@@ -32,6 +32,8 @@ export default class Contact extends React.Component {
     this.state = {}
   }
 
+
+
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value })
   }
@@ -90,7 +92,7 @@ Contact Us
                   <label htmlFor="form-name">upload</label><input type="hidden" name="form-name" value="contact" />
                 </div>
 
-                <div className="form">
+                <div className="form" id="form">
                 <div className="field half left">
                 <label htmlFor="name" style={{padding: '0', margin: '0',}}>Your name:</label>
                     <input

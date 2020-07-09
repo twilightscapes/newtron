@@ -4,3 +4,9 @@
 [build.environment]
   YARN_VERSION = "1.17.3"
   YARN_FLAGS = "--no-ignore-optional"
+
+[[redirects]]
+  from = "/blog"
+  to = "/about"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect

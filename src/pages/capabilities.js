@@ -148,7 +148,7 @@ Design, Manufacturing and Testing Capabilities
  
  <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
  
- <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
+ <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibration testing</div>
  
  
 
@@ -161,7 +161,7 @@ Design, Manufacturing and Testing Capabilities
   
   <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
   
-  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibrated Doo Hickey</div>
+  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
   
   
  
