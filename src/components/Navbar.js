@@ -1,11 +1,11 @@
 import React from 'react'
 // import SearchBox from '../components/SearchBox'
-import logo from '../img/hytron-logo.svg'
+import logo from '../img/hytron-logo.png'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import { GoArrowUp, GoTelescope } from 'react-icons/go'
-import { GoGear } from 'react-icons/go'
+// import { GoGear } from 'react-icons/go'
 // import { FaQuestionCircle } from 'react-icons/fa'
 // import { AiFillBank } from 'react-icons/ai'
 import { FaRegAddressCard, FaTelegramPlane, FaSearch, FaTimesCircle } from 'react-icons/fa'

@@ -259,7 +259,7 @@ Phone: <a className="call-button btn" href="tel:7149036701">(714) 903-6701</a><b
 Fax: (714) 903-4381</p>
 </div>
 
-<iframe className="" width="100%" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+<iframe title="location map" className="" width="100%" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
 
 <br /><small><a style={{textAlign:'center'}} target="_blank" href="https://www.google.com/maps?t=m&amp;q=Hytron+Manufacturing,+Inc.+15582+Chemical+Lane+Huntington+Beach,+CA+92649&amp;ie=UTF8&amp;hq=Hytron+Manufacturing,+Inc.&amp;hnear=15582+Chemical+Ln,+Huntington+Beach,+California+92649&amp;cid=11221569908383745326&amp;ll=33.744397,-118.027239&amp;spn=0.034258,0.054932&amp;z=14&amp;iwloc=A&amp;source=embed" >View Larger Map</a></small>
 
