@@ -1,6 +1,6 @@
 import React from 'react'
 // import SearchBox from '../components/SearchBox'
-import logo from '../img/hytron-logo.png'
+import logo from '../img/hytron-logo.svg'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
