@@ -146,7 +146,7 @@ Design, Manufacturing and Testing Capabilities
  
  <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Hytron Capabilities" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibration testing</div>
  
@@ -159,7 +159,7 @@ Design, Manufacturing and Testing Capabilities
   
    <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
   
-  <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2506.jpg" style={{borderColor:'transparent',}} />
+  <Image alt="Hytron Capabilities" filename="IMG_3513.jpg" style={{borderColor:'transparent',}} />
   
   <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
   
@@ -247,7 +247,7 @@ Equipment List
 
 <div className="container">
 <h2 style={{textAlign:'center', margin:'0 0 10px 0'}}>Other Equipment</h2>
- <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability4.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Co-worker talks about Todd Lambert" filename="capabilities/capability5.jpg" style={{borderColor:'transparent',}} />
 <ul className="exif" style={{background:'#666', clear:'both', margin:'20px'}}>
 <li className="" style={{width:'', textAlign:'center'}}>(2) Doall Bandsaw C-916A</li>
 <li className="" style={{width:'', textAlign:'center'}}>(1) Doall Vertical Band</li>
