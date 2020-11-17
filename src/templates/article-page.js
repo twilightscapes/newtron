@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import ArticleTemplate from '../components/ArticleTemplate'
 import SE0 from '../components/SEO'
-import Share from '../components/Share'
+// import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 
@@ -35,7 +35,7 @@ const ArticlePage = ({ data }) => {
               />
               
               
-             <div className=" content" style={{margin:'0 5% 1rem 5%', padding:'2% 0', borderRadius:'10px',}}>
+             {/* <div className=" content" style={{margin:'0 5% 1rem 5%', padding:'2% 0', borderRadius:'10px',}}>
 <h3 className="" style={{textAlign:'center',}}>
 Please Share
 </h3>
@@ -45,7 +45,7 @@ Please Share
                 slug={post.fields.slug}
                 excerpt={post.frontmatter.meta_description}
               />
-              </div>
+              </div> */}
               
            <section className="section outer">
    
