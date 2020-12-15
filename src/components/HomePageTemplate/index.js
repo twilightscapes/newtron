@@ -14,8 +14,10 @@ import ScrollAnimation from 'react-animate-on-scroll'
 // import { Link } from 'gatsby'
 import styled from 'styled-components'
 // import Intro1 from '../Intro1'
-import Intro2 from '../Intro2'
+// import Intro2 from '../Intro2'
 // import Intro3 from '../Intro3'
+import { Fade } from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 
 const CustomBox = styled.div`
 *, *:before, *:after { box-sizing: border-box; }
@@ -77,7 +79,17 @@ const CustomBox = styled.div`
 
 `
 
+const properties = {
+  duration: 4000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  easing: 'easeIn',
+  arrows: false,
 
+  // prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg></div>,
+  // nextArrow: <div style={{width: "30px", marginLeft: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M512 256L270 42.6v138.2H0v150.6h270v138z"/></svg></div>
+};
 
 const HomePageTemplate = ({
   title,
@@ -106,7 +118,100 @@ const HomePageTemplate = ({
 {/* <Intro1 /> */}
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
-<Intro2 />
+{/* <Intro2 /> */}
+
+<div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'2',}}>
+  
+  <ScrollAnimation animateIn="fadeIn" delay={1600} style={{position:'relative', top:'0', right:'0',}}>
+  <h1
+    className="boom1 narrow txtshadow-header mobile-txt"
+    style={{
+     color: 'white',
+      textAlign: 'center', 
+      letterSpacing: '.0rem',
+    }}
+  >
+    Quality Manufacturing
+  </h1>
+  </ScrollAnimation>
+  
+  
+  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', top:'0', left:'0', paddingTop:'0', overflow:'hidden', width:'100%',}}>
+        <div className=""><h2
+          className="boom3 normal txtshadow-header"
+          style={{
+            color: '#fff',
+            textAlign: 'center', 
+          }}
+        >
+         Precision Parts
+        </h2></div>
+        </ScrollAnimation>
+        
+        
+  <ScrollAnimation animateIn="fadeIn" delay={1700} style={{position:'', top:'0', right:'0',}}>
+        <h3
+          className="boom4 txtshadow-header mobile-txt"
+          style={{
+           color: 'white',
+            textAlign: 'center',
+            textTransform: 'normal', 
+          }}
+        >
+         Done right AND on time
+        </h3>
+        </ScrollAnimation>
+
+        </div>
+
+        
+<div  className="slidecom" style={{position:'relative', overflow:'', height:'', zIndex:'0'}}>
+        {/* <Slide easing="ease"> */}
+
+        
+
+
+        <Fade {...properties}>
+
+
+       
+
+          <div className="each-slide">
+    
+              {/* <div style={{position:'absolute', zIndex:'50', width:'', textAlign:'center', border:'0px solid green', marginLeft:'15%', top:'150px'}}>
+                <h3 style={{color:'#fff', fontSize:'30px'}}>The Rolex Collection</h3>
+                <a href="" style={{color:'#fff'}}>View All Watches</a>
+                
+                </div> */}
+
+<a href="/rolex/" style={{color:'#fff'}}><Image alt="test" filename="img_3136.jpg" /></a>
+            </div>
+ 
+
+          <div className="each-slide">
+            <a href="" style={{color:'#fff'}}><Image alt="test" filename="slider-4.jpg" /></a>
+            </div>
+
+            <div className="each-slide">
+            <a href="" style={{color:'#fff'}}><Image alt="test" filename="slider-5.jpg" /></a>
+            </div>
+
+
+           
+
+    
+
+          {/* <div className="each-slide">
+            <div>
+              <span>Slide 3</span>
+              <Image alt="test" filename="slide-3.jpg" />
+            </div>
+          </div> */}
+        </Fade>
+      </div>
+
+
+
 
 <div className="container textcontent" style={{margin:'3% 12%', padding:'1.5rem'}}>
 
