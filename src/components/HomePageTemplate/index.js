@@ -120,7 +120,7 @@ const HomePageTemplate = ({
 {/* <Intro3 /> */}
 {/* <Intro2 /> */}
 
-<div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'2',}}>
+<div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'',}}>
   
   <ScrollAnimation animateIn="fadeIn" delay={1600} style={{position:'relative', top:'0', right:'0',}}>
   <h1
@@ -184,16 +184,16 @@ const HomePageTemplate = ({
                 
                 </div> */}
 
-<a href="/rolex/" style={{color:'#fff'}}><Image alt="test" filename="img_3136.jpg" /></a>
+<a href="/capabilities/" style={{color:'#fff'}}><Image alt="test" filename="img_3136.jpg" /></a>
             </div>
  
 
           <div className="each-slide">
-            <a href="" style={{color:'#fff'}}><Image alt="test" filename="slider-4.jpg" /></a>
+            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="slider-4.jpg" /></a>
             </div>
 
             <div className="each-slide">
-            <a href="" style={{color:'#fff'}}><Image alt="test" filename="slider-5.jpg" /></a>
+            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="slider-5.jpg" /></a>
             </div>
 
 
