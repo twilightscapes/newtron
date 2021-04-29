@@ -184,16 +184,16 @@ const HomePageTemplate = ({
                 
                 </div> */}
 
-<a href="/capabilities/" style={{color:'#fff'}}><Image alt="test" filename="img_3136.jpg" /></a>
+<a href="/capabilities/" style={{color:'#fff'}}><Image alt="test" filename="IMG_3602.jpg" /></a>
             </div>
  
 
           <div className="each-slide">
-            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="slider-4.jpg" /></a>
+            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="IMG_3513.jpg" /></a>
             </div>
 
             <div className="each-slide">
-            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="slider-5.jpg" /></a>
+            <a href="capabilities/" style={{color:'#fff'}}><Image alt="test" filename="IMG_3252.jpg" /></a>
             </div>
 
 
