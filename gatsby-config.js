@@ -40,29 +40,29 @@ module.exports = {
       },
     },
     
-    {
-    resolve: "gatsby-plugin-netlify-cache",
-    options: {
-      extraDirsToCache: [
-        "img/favorites",
-        "img/gallery1",
-        "img/gallery6",
-        "extra/splashscreens"
-      ]
-    }
-  },
+  //   {
+  //   resolve: "gatsby-plugin-netlify-cache",
+  //   options: {
+  //     extraDirsToCache: [
+  //       "img/favorites",
+  //       "img/gallery1",
+  //       "img/gallery6",
+  //       "extra/splashscreens"
+  //     ]
+  //   }
+  // },
     
-{ 
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: false, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
-        // tailwind: true, // Enable tailwindcss support
-        // whitelist: ['headroom', 'headroom--unfixed'], // Don't remove this selector
-         //ignore: ['index.css'], // Ignore files/folders
-         purgeOnly : ['/index.css', '/animate.css', '/custom.css', '/noscript.css'], // Purge only these files/folders
-      }
-    },
+// { 
+//       resolve: `gatsby-plugin-purgecss`,
+//       options: {
+//         printRejected: false, // Print removed selectors and processed file names
+//         develop: true, // Enable while using `gatsby develop`
+//         // tailwind: true, // Enable tailwindcss support
+//         // whitelist: ['headroom', 'headroom--unfixed'], // Don't remove this selector
+//          //ignore: ['index.css'], // Ignore files/folders
+//          purgeOnly : ['/index.css', '/animate.css', '/custom.css', '/noscript.css'], // Purge only these files/folders
+//       }
+//     },
     
 
   
