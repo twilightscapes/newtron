@@ -344,7 +344,7 @@ position:absolute;
 top:0;
 left:0;
 z-index: 1;
-width: 57vw;
+width: 57%;
 height: 100vh;
 display: flex;
 align-items: center;
@@ -360,8 +360,8 @@ background-image: linear-gradient(#3a3a3b 40%,#111212  100%);
     animation-delay: .8s;
     overflow: hidden;
     
-    content: ('AS9100 & ISO9001');
-font-size:160%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+    content: ('ISO9001:2015');
+font-size:180%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
 }
 
 .intro:after{
@@ -369,7 +369,7 @@ position:absolute;
 top:0;
 right:0;
 z-index: 1;
-width: 57vw;
+width: 57%;
 height: 100vh;
 display: flex;
 align-items: center;
