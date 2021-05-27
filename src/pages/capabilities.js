@@ -99,7 +99,7 @@ const Gal1Page = () => {
 
 <div className="container" style={{padding:'10px'}}>
 <h3 className="" style={{textAlign:'center', fontSize:'160%',}}>
-Manufacturing and Testing Capabilities
+Design, Manufacturing and Testing Capabilities
 </h3>
 </div>
 

@@ -206,10 +206,9 @@ About Hytron Manufacturing
  <strong>CNC Lathe Operator</strong><br />
  <strong>Tool &amp; Die Maker</strong><br />
  <br /><br />
- Our shop operating hours are per below (with some occasional overtime):<br />
- Hours 6:00am - 2:30pm Mon-Fri
- {/* 1st Shift - Hours 6:00am - 2:30pm Mon-Fri<br />
- 2nd Shift - Hours 2:30:pm - 11:00pm Mon-Fri<br /> */}
+ We currently operate two shifts (with some occasional overtime):<br />
+ 1st Shift - Hours 6:00am - 2:30pm Mon-Fri<br />
+ 2nd Shift - Hours 2:30:pm - 11:00pm Mon-Fri<br />
  <br />
 
  <p>If you have the talent, believe you qualify, and want to join our team then please fill out our online contact form, submit your resume and download our Job Application form. Complete the form and upload it to us for evaluation and possible job interview.</p>
