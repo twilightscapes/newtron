@@ -16999,10 +16999,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-francois-one@0.0.71:
-  version "0.0.71"
-  resolved "https://registry.yarnpkg.com/typeface-francois-one/-/typeface-francois-one-0.0.71.tgz#8a726530b8fd5b47dd40232e087b740ca3ee0818"
-  integrity sha512-l9BjLtsxsAmwJHn1JZ6cshiMMt9EWXZ6lz2lc5NOOQ0DnsKmTV2KnV69d4PcKfsl75KDGobk/DufwinIx/1z2Q==
+typeface-francois-one@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-francois-one/-/typeface-francois-one-1.1.13.tgz#e8de05f9c783e904d021e56429913d79cc8870de"
+  integrity sha512-pHuW1T6ZpnKyJOmoNsdOcyEXIujhhexFgGNnLpHiwYMTftyJAw8wBDpQohOTto6pegvmsGMtxi/YNmqpl8ehAQ==
+
+typeface-hammersmith-one@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-hammersmith-one/-/typeface-hammersmith-one-1.1.13.tgz#4894f297cd2d7fc4bd299e1dc341d572f1c2fe83"
+  integrity sha512-nh3dhKwSTY381XtQlgW0cvlvyUdYixg9OuHllT+nOHk+F1WasL3B/hgm5tSWkZVJ7qjx5NyIqhT9urmRw0oPbg==
 
 ua-parser-js@^0.7.18:
   version "0.7.23"
