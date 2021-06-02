@@ -110,7 +110,7 @@ Manufacturing and Testing Capabilities
  <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'', zIndex:'1',}}>    
 <div className="container speech" style={{ width:'100%', borderRadius:'12px', margin:'0', padding:'', order:'1', position:'relative', boxShadow: '0px 0px 5px 0px black', }}>
 
-<p>
+
 {/* <span className="txtshadow-header" style={{fontSize:'500%', color:'#ccc', position:'absolute', top:'-5px', left:'-10px',}}>&#10077;</span><br />
 <span className="txtshadow-header" style={{fontSize:'500%', color:'#ccc', position:'absolute', bottom:'-15px', right:'-10px',}}>&#10078;</span><br /> */}
 
@@ -118,18 +118,19 @@ Manufacturing and Testing Capabilities
 
 <h2>Quality Management System</h2>
 
-<p>Hytron’s Quality Management System (QMS) is ISO 9001:2015 and AS9100D certified which is the standard for the aerospace, aviation, space and defense industries. As a certified contract manufacturer, this certification underscores out commitment to quality and on-time delivery of the products and services we provide to our customers.</p>
+<p>Hytron’s Quality Management System (QMS) is <a href="./Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank">ISO 9001:2015 and AS9100D certified</a> which is the standard for the aerospace, aviation, space and defense industries. As a certified contract manufacturer, this certification underscores out commitment to quality and on-time delivery of the products and services we provide to our customers.</p>
 
 <p>With our Haas CNC machining centers, Hytron provides precision CNC machining of numerous materials, including stainless steel and aluminum machining. We specialize in precision milling and turning while also providing other machining services, which cover the entire production process such as  conventional milling, drilling, turning, and sawing, as well as grinding and honing, deburring, and part marking. With our approved, certified suppliers, we can also provide heat treating, welding, plating, and painting.</p>
 
 <p>We specialize in small to medium sized parts in many different quantities. From one-piece short run prototypes to very large volume production. Whether your part contains one component or many, needs special processing or assembly capabilities, our production team can take your project from conception to production. We are the trusted go-to source for the aerospace, medical, commercial, military, and computer industries for over 55 years in business.  Let our dedicated team take your vision/concept and make it a reality.</p>
 
 <p>We have built a long standing reputation as a manufacturer of precision products that are field proven and time tested.  Contact one of our professionals for information on your specific manufacturing requirements.</p>
+<br />
+<h3> ISO 9001:2015 and AS9100D certified </h3>
+<br /><br  />
 
+<a href="./Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank" style={{borderColor:'transparent', margin:'10px 5px', paddingBottom:'50px'}}><Image alt="Hytron is ISO 9001:2015 and AS9100D certified" filename="Hytron-AS9100D-Cert-2021.jpg" /></a>
 
-
-
-</p>
 
 </div>
 </ScrollAnimation>
@@ -140,7 +141,7 @@ Manufacturing and Testing Capabilities
 
 
 
- <ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
+<ScrollAnimation animateIn="fadeIn" animateOut="" animateOnce={true} delay={100} style={{width:'100%', padding:'0', order:'2 !important',  zIndex:'0',}}> 
  
 
  
