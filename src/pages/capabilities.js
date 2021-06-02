@@ -32,7 +32,7 @@ content: (''); background-image: url('../img/hytron-bg1.svg') !important; height
 @media (max-width: 48rem) {
 .intro:before{font-size:200%;}
 .speech:after {right: -28px;}
-.nowrap{display:block !important; width:100% !important;
+.nowrap{display:block !important; width:100% !important; height:100% !important
 }
 
 @media (hover: hover) {
@@ -118,7 +118,7 @@ Manufacturing and Testing Capabilities
 
 <h2>Quality Management System</h2>
 
-<p>Hytron’s Quality Management System (QMS) is <a href="./Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank">ISO 9001:2015 and AS9100D certified</a> which is the standard for the aerospace, aviation, space and defense industries. As a certified contract manufacturer, this certification underscores out commitment to quality and on-time delivery of the products and services we provide to our customers.</p>
+<p>Hytron’s Quality Management System (QMS) is <a href="../Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank">ISO 9001:2015 and AS9100D certified</a> which is the standard for the aerospace, aviation, space and defense industries. As a certified contract manufacturer, this certification underscores out commitment to quality and on-time delivery of the products and services we provide to our customers.</p>
 
 <p>With our Haas CNC machining centers, Hytron provides precision CNC machining of numerous materials, including stainless steel and aluminum machining. We specialize in precision milling and turning while also providing other machining services, which cover the entire production process such as  conventional milling, drilling, turning, and sawing, as well as grinding and honing, deburring, and part marking. With our approved, certified suppliers, we can also provide heat treating, welding, plating, and painting.</p>
 
@@ -129,7 +129,7 @@ Manufacturing and Testing Capabilities
 <h3> ISO 9001:2015 and AS9100D certified </h3>
 <br /><br  />
 
-<a href="./Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank" style={{borderColor:'transparent', margin:'10px 5px', paddingBottom:'50px'}}><Image alt="Hytron is ISO 9001:2015 and AS9100D certified" filename="Hytron-AS9100D-Cert-2021.jpg" /></a>
+<a href="../Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank" style={{borderColor:'transparent', margin:'10px 5px', paddingBottom:'50px'}}><Image alt="Hytron is ISO 9001:2015 and AS9100D certified" filename="Hytron-AS9100D-Cert-2021.jpg" /></a>
 
 
 </div>
