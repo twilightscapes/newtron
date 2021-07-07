@@ -129,7 +129,7 @@ Manufacturing and Testing Capabilities
 <h3> ISO 9001:2015 and AS9100D certified </h3>
 <br /><br  />
 
-<a href="../Hytron-AS9100D-Cert-2021.jpg" title="View Certification" target="_blank" style={{borderColor:'transparent', margin:'10px 5px', paddingBottom:'50px'}}><Image alt="Hytron is ISO 9001:2015 and AS9100D certified" filename="Hytron-AS9100D-Cert-2021.jpg" /></a>
+<a href="../Hytron-Cert-AS9100D-with ISO-9001-exp2024-AS6.jpg" title="View Certification" target="_blank" style={{borderColor:'transparent', margin:'10px 5px', paddingBottom:'50px'}}><Image alt="Hytron is ISO 9001:2015 and AS9100D certified" filename="Hytron-Cert-AS9100D-with ISO-9001-exp2024-AS6.jpg" /></a>
 
 
 </div>
