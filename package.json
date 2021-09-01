@@ -47,6 +47,7 @@
     "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
     "react-share": "^3.0.1",
+    "react-player": "^2.9.0",
     "react-slideshow-image": "^3.4.3",
     "smooth-scroll": "^16.1.0",
     "styled-components": "^4.4.1",

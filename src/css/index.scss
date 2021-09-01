@@ -388,6 +388,24 @@ font-size:180%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
 }
 
 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.player-wrapper{
+  position:absolute;
+  top:0;
+  display:block;
+  width:100%;
+  border:0px solid yellow !important;
+  background:#222;
+  // z-index:11;
+}
+
+
 
 @-webkit-keyframes slide {
     100% { width:0; }
