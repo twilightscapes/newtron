@@ -147,7 +147,7 @@ Manufacturing and Testing Capabilities
  
  <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Hytron Capabilities" filename="IMG_3029.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Hytron Capabilities" filename="IMG_3859.jpg" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Calibration testing</div>
  
@@ -158,7 +158,7 @@ Manufacturing and Testing Capabilities
   <br />
   
   
-   <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
+   <div className="imgbox container" style={{display:'none', border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
   
   <Image alt="Hytron Capabilities" filename="IMG_3513.jpg" style={{borderColor:'transparent',}} />
   

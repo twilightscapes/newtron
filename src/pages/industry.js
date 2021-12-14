@@ -118,7 +118,7 @@ How can Hytron help your company?
  
   <div className="imgbox container" style={{border:'0px solid #222', position:'relative', margin:'0 0 0 0', borderRadius:'', padding:'0', marginLeft:'1rem', overflow:'hidden',}}>
  
- <Image alt="Co-worker talks about Todd Lambert" filename="IMG_2500.jpg" style={{borderColor:'transparent',}} />
+ <Image alt="Hytron" filename="IMG_2886.JPG" style={{borderColor:'transparent',}} />
  
  <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}></div>
  </div>
