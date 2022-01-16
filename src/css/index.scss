@@ -967,13 +967,13 @@ body.dark .header .logolink{
 text-shadow: 0px 1px 0px #fff;
 }
 
-body.light .logofirst, body.light .logofirst:before{}
-body.dark .logofirst, body.dark .logofirst:before, body.dark .logocolor:before, body.dark .logocolor:after{color:#fff;}
+// body.light .logofirst, body.light .logofirst:before{}
+// body.dark .logofirst, body.dark .logofirst:before, body.dark .logocolor:before, body.dark .logocolor:after{color:#fff;}
 
 body.dark .header .logofirst,
 body.dark .header .logofirst:before,
 body.dark .header .logocolor:after,
-body.dark .header .logocolor:before,{color:#222;}
+body.dark .header .logocolor:before {color:#222;}
 
 /* menu */
 
@@ -1168,7 +1168,7 @@ header{padding:0 0 !important;}
 
 .header ul li label{padding-left:30px !important;}
 
-body.light .header li a{color:#fff !important;}
+// body.light .header li a{color:#fff !important;}
 
 
 
@@ -1479,7 +1479,8 @@ body.light a {
   color: $primary; }
 
 /* body.light .header li a, body.dark .header li a, */ body.light footer, body.light footer a, body.dark footer a, body.dark .outer a, body.light .outer a  {
-  color: #fff; }
+  // color: #fff; 
+}
   
     body.light .header ul li .content a, body.light .content a{color:inherit;}
 
